@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Website with Simple Grid</title>
+    <link rel="stylesheet" href="simple-grid.css">
+    <style>
+    .fonts {
+        font-size: 1.125rem;
+        font-weight: 200;
+        line-height: 1.8;
+        color: #0a0a13
+        }
+    .background_img {
+        background-image: url('table-mountain.jpg');
+        background-size: 100% 50%;
+        background-attachment:fixed;
+    }
+    th, td {
+        border:0.1px solid;
+    }
+
+@media(min-width:800px){
+    .switch {
+        float: right;
+        margin-right: 10px ;
+    }
+}
+
+    </style>
+</head>
+<body>
+        <div class="header background_img center row" >
+            <div class="col-6">
+                <h1>Progress Lefsifi</h1>
+            </div>
+            <div class="col-6">
+                <img src="lelly.png" width="200" height="200">
+            </div>
+        </div>
+        <div class="container">
+            <h1>A City I would like to visit</h1>
+            <div class="row">
+                <div class="col-6">
+                    <img src="paris.jpg" width="200">
+                </div>
+                <div class="col-6">
+                    <p><b>Paris</b>, it is a city that has captivated the hearts of millions of people around the world. Its rich history and art, along with its beautiful architecture and landmarks, make it a destination that many dream of visiting. Visitors can explore world-famous museums like the Louvre and Musée d'Orsay, as well as historic sites like the Palace of Versailles and the Catacombs of Paris. Paris is also a culinary hub, offering French cuisine, wine, and cheese that are second to none. The city is known for its fashion and high-end boutiques, and its romantic ambiance has made it one of the most popular destinations.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <h1>A Foreign Language I would like to learn</h1>
+            <p>Spanish, I love watching spanish movies and sometimes i get lost while trying to read the subtitles</p>
+            <table style="border-collapse: collapse;">
+                <tr class="fonts">
+                    <th style="width: 30%;">Spanish</th>
+                    <th style="width: 30%;">English</th>
+                </tr>
+                <tr class="fonts">
+                    <td>¡Hola! ¿Cómo estás?</td>
+                    <td>Hi, how are you?</td>
+                </tr>
+                <tr class="fonts">
+                    <td>Bien, gracias, y tu?</td>
+                    <td>I'm good, thanks and how are you?</td>
+
+                </tr>
+                <tr class="fonts">
+                    <td>¡Mucho gusto!</td>
+                    <td>Nice to meet you!</td>
+                </tr>
+            </table>
+        </div>
+        <div class="container fonts">
+                <h1>Historic places in Acornhoek</h1>
+                <div class="row">
+                    <div class="col-4-sm">
+                        <h3>Kruger National Park</h3>
+                        <div class="row">
+                           <div class="col-3">
+                            <ol>
+                                <li>The largest and oldest game reserve/park in Africa</li>
+                                <li>Evidence of <em>Homoerectus</em> roaming around the area between 500 000 and 100 000 years ago, including Stone Age man between 100 000 to 30 000 years ago, Bushman tribes(San people) and Iron Age inhabitants between 1500 years ago have been found.</olS>
+                                <li>f 3</li>
+                            </ol>
+                           </div>
+                           <div class="col-3">
+                            <img src="knp.jpg" width="200" height="200">
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-4-sm">
+                        <h3>Graeme Naylor Museum</h3>
+                        <div class="row">
+                           <div class="col-3">
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                           </div>
+                           <div class="col-4">
+                            <img src="timbavati.jpg" width="200" height="200">
+                           </div>
+                    </div>
+                    <div class="col-4-sm">
+                        <h3>Echo Caves</h3>
+                        <div class="row">
+                           <div class="col-3">
+                            <ol>
+                                <li>The Echo caves have been a shelter for humans since the middle stone age</li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                           </div>
+                           <div class="col-3">
+                            <img src="echo.jfif" width="200" height="200">
+                           </div>
+                        </div>
+                    </div>
+</body>
+</html>

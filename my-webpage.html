@@ -5,25 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Website</title>
+    <style>
+.places {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    flex : 1
+}
+img {
+    overflow: auto;
+  }
+    </style>
 </head>
 <body>
-    <div>
-        <div>
+        <section>
             <h1>Progress Lefsifi</h1>
             <img src="lelly.png" width="100">
-        </div>
+        </section>
     
-        <div class="city">
+        <section>
             <h1>A City I would like to visit</h1>
             <div class="city">
-                <img>
-                <p>New York City, why</p>
+                <div>
+                    <img src="paris.jpg" width="200">  
+                </div>
+                <div>
+                <p><b>Paris</b>,it has many stunning sights that showcase impressive architecture and design.</p>
+                </div>
             </div>
-        </div>
+        </section>
     
-        <div class="language">
+        <section>
             <h1>A Foreign Language I would like to learn</h1>
-            <p>Spanish, </p>
+            <p>Spanish, I love watching spanish movies and sometimes i get lost while trying to read the subtitles</p>
             <table>
                 <tr>
                     <th>Spanish</th>
@@ -42,39 +56,38 @@
                     <td>Nice to meet you!</td>
                 </tr>
             </table>
-        </div>
-        <div class="places">
+        </section>
+        <section>
             <h1>Historic places in Acornhoek</h1>
             <div class="Acornhoek">
                 <div class="place">
-                    <h3>place 1</h3>
+                    <h3>Kruger National Park</h3>
                     <img>
-                    <ul>
-                        <li>fact 1</li>
-                        <li>f 2</li>
+                    <ol>
+                        <li>The largest and oldest game reserve/park in Africa</li>
+                        <li>Evidence of <em>Homoerectus</em> roaming around the area between 500 000 and 100 000 years ago, including Stone Age man between 100 000 to 30 000 years ago, Bushman tribes(San people) and Iron Age inhabitants between 1500 years ago have been found.</li>
                         <li>f 3</li>
-                    </ul>
+                    </ol>
                 </div>
                 <div class="place">
-                    <h3>place 2</h3>
+                    <h3>Graeme Naylor Museum</h3>
                     <img>
-                    <ul>
+                    <ol>
                         <li></li>
                         <li></li>
                         <li></li>
-                    </ul>
+                    </ol>
                 </div>
                 <div class="place">
-                    <h3>City3</h3>
+                    <h3>Echo Caves</h3>
                     <img>
-                    <ul>
-                        <li>f1</li>
-                        <li>f2</li>
-                        <li>f3</li>
-                    </ul>
+                    <ol>
+                        <li>The Echo caves have been a shelter for humans since the middle stone age</li>
+                        <li></li>
+                        <li></li>
+                    </ol>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 </body>
 </html>

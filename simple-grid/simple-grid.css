@@ -248,3 +248,35 @@ p {
     max-width: 60rem;
   }
 }
+
+/* my own styling*/
+
+.places {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    flex : 1
+}
+img {
+    overflow: auto;
+  }
+
+  .fonts {
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 1.8;
+    color: #0a0a13
+    }
+.background_img {
+    background-image: url('/photos/table-mountain.jpg');
+    background-size: 100% 50%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+th, td {
+    border:0.1px solid;
+}
+
+.clearfix {
+  overflow: auto;
+}

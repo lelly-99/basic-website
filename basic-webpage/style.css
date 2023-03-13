@@ -1,9 +1,69 @@
-.places {
-    border: 1px solid;
+.section {
+    
     padding: 1em;
     margin: 1em;
-    flex : 1
+    display: flex;
+    
 }
+.clearfix {
+    overflow: auto;
+  }
+
 img {
     overflow: auto;
   }
+
+  .fonts {
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 1.8;
+    color: #0a0a13
+    }
+.background_img {
+    background-image: url('/photos/table-mountain.jpg');
+    background-size: 100% 50%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    padding: 1em;
+}
+th, td {
+    border:0.1px solid;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .center {
+    text-align: center;
+    margin: auto;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+
+  
+@media only screen and (max-width: 33.37em) { 
+.intro,
+.which-city,
+.historic-places {
+  flex-direction: column;
+}
+
+.switch {
+  float: left;
+}
+}

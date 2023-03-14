@@ -20,7 +20,7 @@ img {
     color: #0a0a13
     }
 .background_img {
-    background-image: url('basic-website/photos/table-mountain.jpg');
+    background-image: url('../photos/table-mountain.jpg');
     background-size: 100% 50%;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -30,6 +30,13 @@ th, td {
     border:0.1px solid;
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  height: 100%;
+  width: 100%;
+}
 .row {
     display: flex;
     flex-direction: row;
@@ -62,8 +69,18 @@ th, td {
 .historic-places {
   flex-direction: column;
 }
-
-.switch {
-  float: left;
 }
+
+.float-right {
+  float: right;
+  padding: 10px;
+}
+
+.text {
+  text-align: justify;
+}
+
+.float-left {
+  float: lefy;
+  padding: 10px;
 }

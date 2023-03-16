@@ -280,3 +280,30 @@ th, td {
 .clearfix {
   overflow: auto;
 }
+
+@media only screen and (max-width: 33.37em) { 
+  .float-left {
+    float: left;
+    padding: 10px;
+  }
+  }
+  
+  .float-right {
+    float: right;
+    padding: 8px;
+   } 
+  
+  .float-left1 {
+    float: left;
+    padding: 10px;
+  }
+  .text {
+    text-align: justify;
+  }
+
+  @media only screen and (min-width: 33.36em) {
+    .float-right1 {
+      float: right;
+      padding: 10px;
+     } 
+  }

@@ -13,12 +13,6 @@ img {
     overflow: auto;
   }
 
-  .fonts {
-    font-size: 1.125rem;
-    font-weight: 200;
-    line-height: 1.8;
-    color: #0a0a13
-    }
 .background_img {
     background-image: url('../photos/table-mountain.jpg');
     background-size: 100% 50%;
@@ -77,7 +71,7 @@ table {
 
 .float-right {
   float: right;
-  padding: 8px;
+  padding: 10px;
  } 
 
 .float-left1 {
@@ -95,3 +89,6 @@ table {
    } 
 }
 
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

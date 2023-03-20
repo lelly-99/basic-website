@@ -51,7 +51,8 @@ table {
   }
   
   .column-1 {
-    flex:50%;
+    display: flex;
+    padding: 10px;
   }
 
   .center {
@@ -87,6 +88,7 @@ table {
   float: left;
   padding: 10px;
 }
+
 .text {
   text-align: justify;
 }
@@ -100,4 +102,5 @@ table {
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }

@@ -45,6 +45,15 @@ table {
     flex: 1;
   }
 
+  .row-1 {
+    display: flex;
+    
+  }
+  
+  .column-1 {
+    flex:50%;
+  }
+
   .center {
     text-align: center;
     margin: auto;
@@ -57,7 +66,7 @@ table {
 
 
   
-@media only screen and (max-width: 33.37em) { 
+@media only screen and (max-width: 60em) { 
 .intro,
 .which-city,
 .historic-places {
@@ -82,7 +91,7 @@ table {
   text-align: justify;
 }
 
-@media only screen and (min-width: 33.36em) {
+@media only screen and (min-width: 60em) {
   .float-right1 {
     float: right;
     padding: 10px;
